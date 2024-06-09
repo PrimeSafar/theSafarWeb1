@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>project</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    .page {
+      margin: 0;
+      padding: 0;
+      background-color: #1f2937;
+      height: 90vh;
+    }
+    .menu {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+    }
+    .header {
+      font-size: 24px;
+      color: #f9faf8;
+      font-weight: bold;
+    }
+    .header:hover,
+    .button:active {
+      color: #faf8f8;
+      background-color: #76AEED;
+    }
+    .ss {
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 18px;
+      color: #e5e7eb;
+      display: flex;
+    }
+    .link, .log, .support {
+      margin: 0 10px;
+    }
+    .link:hover, .log:hover, .support:hover, .button:active {
+      color: #faf8f8;
+      background-color: #76AEED;
+    }
+    h1 {
+      font-size: 48px;
+      color: #f9faf8;
+      margin: 20px 0;
+      font-weight: bold;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      text-align: center;
+    }
+    p {
+      font-size: 18px;
+      color: #f9faf8;
+      text-align: center;
+      margin: 10px 20px;
+    }
+    .ii {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+    .img {
+      width: 100%;
+      max-width: 470px;
+      height: auto;
+      background-color: darkgray;
+      margin: 20px 0;
+      border-radius: 10px;
+    }
+    .button {
+      display: block;
+      color: #fff;
+      background-color: rgb(69, 114, 211);
+      border-radius: 5px;
+      padding: 12px;
+      text-align: center;
+      border: 2px solid black;
+      width: 120px;
+      margin: 20px auto;
+      font-weight: bold;
+      font-size: 20px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .button:hover,
+    .button:active {
+      color: #faf8f8;
+      background-color: #76AEED;
+    }
+    .button:active,
+    .button:visited:active {
+      color: #FFF;
+      background-color: #5995DA;
+    }
+    .BODE {
+      background-color: rgb(252, 251, 251);
+      padding: 20px;
+    }
+    .info {
+      color: #1f2937;
+      font-size: 36px;
+      font-weight: bolder;
+      text-align: center;
+      margin-top: 20px;
+      margin-right: 220px;
+    }
+    .img6 {
+        
+        margin-top: 60px ;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .img1, .img2, .img3, .img4 {
+      width: 200px;
+      height: auto;
+      background-color: white;
+      border: 5px solid #3882f6;
+      border-radius: 20px;
+    }
+    .infocarp1, .infocarp2, .infocarp3, .infocarp4 {
+      font-size: 20px;
+      font-weight: 600;
+      color: #1f2937;
+      margin-top: 12px;
+      text-align: center;
+      font-family: sans-serif;
+    }
+    .insper {
+      background-color: #e5e7eb;
+      padding: 40px;
+      font-size: 20px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-weight: 800;
+      text-align: center;
+    }
+    .lis {
+      margin-top: 20px;
+      font-size: 30px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-weight: bold;
+    }
+    .footer {
+      background-color: #1f2937;
+      font-size: 20px;
+      color: #e5e7eb;
+      text-align: center;
+      font-weight: bold;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      padding: 30px;
+    }
+    .social {
+      margin-top: 10px;
+    }
+    @media (min-width: 600px) {
+      .ii {flex-direction: row;
+        justify-content: space-between;
+        padding: 20px 40px;
+      }
+      h1 {
+        text-align: left;
+        margin-left: 300px;
+      }
+      p {
+        text-align: left;
+        margin-left: 300px;
+      }
+      .button {
+        margin-left: 300px;
+      }
+      .img6 {
+        justify-content: space-around;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="menu">
+      <div class="header">Header Logo</div>
+      <div class="ss">
+        <div class="link">sign up</div>
+        <div class="log">Log in</div>
+        <div class="support">support</div>
+      </div>
+    </div>
+    <div class="ii">
+      <div class="i1">
+        <h1>This page is <br />awesome</h1>
+        <p>
+          This website has some subtext that goes here under the main title.<br />
+          It's a smaller font and the color is lower contrast
+        </p>
+        <div class="button">button</div>
+      </div>
+      <img src="beetle-8273345_1920.jpg" alt="img is here " class="img" />
+    </div>
+  </div>
+  <div class="BODE">
+    <h1 class="info">Some random information</h1>
+    <div class="img6">
+      <div class="info1">
+        <img src="il_fullxfull.5657046760_tq4i.webp" class="img1" />
+        <div class="infocarp1">
+          The Volkswagen Beet <br />
+          is a small car <br />produced by <br />
+          the German company <br />Volkswagen from <br />1938 to 2003
+        </div>
+      </div>
+      <div class="info2">
+        <img src="il_fullxfull.5657046760_tq4i.webp" class="img2" />
+        <div class="infocarp2">
+          The Volkswagen Beet <br />
+          is a small car <br />produced by <br />
+          the German company <br />Volkswagen from <br />1938 to 2003
+        </div>
+      </div>
+      <div class="info3">
+        <img src="il_fullxfull.5657046760_tq4i.webp" class="img3" />
+        <div class="infocarp3">
+          The Volkswagen Beet <br />
+          is a small car <br />produced by <br />
+          the German company <br />Volkswagen from <br />1938 to 2003
+        </div>
+      </div>
+      <div class="info4">
+        <img src="il_fullxfull.5657046760_tq4i.webp" class="img4" />
+        <div class="infocarp4">
+          The Volkswagen Beet <br />
+          is a small car <br />produced by <br />
+          the German company <br />Volkswagen from <br />1938 to 2003
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="insper">
+    Ever since the emergence of the first car in the 19th century, millions of cars have been produced by hundreds of car brands. Some brands evolved with time and became industry giants, while others were left behind in the race for excellence. Brands that welcomed technology as a whole worked for decades to make a name in the industry. The years of hard work have paid off and now their launches are highly anticipated, with pre-bookings portraying people’s trust in the brand’s name. Speaking of trusted brands that have built a reputation with decades of experience under their belt, Volkswagen’s name will be right up there with the top ones.
+    <div class="lis">-The Beetle Car</div>
+  </div>
+  <div class="footer">
+    ALL RIGHTS RESERVED BY SAFAR ATTALLAH.
+    <div class="social">
+      <img src="social-icons.svg" alt="social" class="social" />
+    </div>
+  </div>
+</body>
+</html>
